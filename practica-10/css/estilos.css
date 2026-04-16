@@ -1,0 +1,185 @@
+/* ============================
+   Skins — Hoja de estilos
+   ============================ */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Lato:wght@400;700&display=swap');
+ 
+/* --- Base --- */
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    background-color: #0d0d0d;
+    color: #e8e8e8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+ 
+/* --- Títulos --- */
+ 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+ 
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #e63950;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+ 
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #cccccc;
+    letter-spacing: 1px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+ 
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #aaaaaa;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+ 
+/* --- Párrafos --- */
+ 
+p {
+    margin-bottom: 16px;
+    color: #d0d0d0;
+}
+ 
+p em {
+    color: #e63950;
+    font-style: italic;
+}
+ 
+p strong {
+    color: #ffffff;
+}
+ 
+p u {
+    text-decoration-color: #e63950;
+    text-underline-offset: 3px;
+}
+ 
+/* --- Clases de párrafos --- */
+ 
+p.introduccion {
+    background-color: #1a1a1a;
+    border-left: 3px solid #e63950;
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 18px;
+}
+ 
+p.links {
+    font-size: 14px;
+    color: #888888;
+    margin-top: 20px;
+}
+ 
+/* --- Links --- */
+ 
+a {
+    color: #e63950;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+ 
+a:hover {
+    color: #ff6b7a;
+    text-decoration: underline;
+}
+ 
+/* --- Listas --- */
+ 
+ul, ol {
+    padding-left: 22px;
+    margin-bottom: 18px;
+}
+ 
+li {
+    margin-bottom: 10px;
+    color: #d0d0d0;
+}
+ 
+li strong {
+    color: #ffffff;
+}
+ 
+/* --- Imágenes --- */
+ 
+img {
+    display: block;
+    border-radius: 8px;
+    margin: 16px 0;
+    border: 1px solid #2a2a2a;
+}
+ 
+/* --- Línea horizontal --- */
+ 
+hr {
+    border: none;
+    border-top: 1px solid #2a2a2a;
+    margin: 30px 0;
+}
+ 
+/* --- Navegación --- */
+ 
+nav.menu {
+    margin: 10px 0;
+}
+ 
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+nav.menu a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #888888;
+    padding: 4px 2px;
+    transition: color 0.2s;
+}
+ 
+nav.menu a:hover {
+    color: #e63950;
+    text-decoration: none;
+}
+
+
+/*--- La IA no preciso de mucha informacion mas que la estructura que le di en un principio de mi texto en HTML (y considero que no es imprescindible)
+
+Declaracion de uso de IA: La version generada por la IA es considerablemente mejor que la creada por mi, la legibilidad es mucho mejor, la estructuracion del texto es mas clara, el diseño es mas atractivo y el uso de colores es mas armonioso. La IA ha logrado mejorar significativamente la calidad del código CSS, haciendo que el resultado final sea mucho más profesional y agradable a la vista. Ademas que el codigo se encuentra mas limpio (aunque contiene elementos que todavia no se como utilizar)
+---*/
